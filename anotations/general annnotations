@@ -1,0 +1,15 @@
+INCLUDES
+    Pasta similar ao folder_shared (angular)
+        HEADER
+        FOOTER
+COMMON
+    Pasta de estilizações comuns
+
+COMPONENTS
+    Componentes (em angular)
+
+PAGES
+    Estilização geral das pasta
+
+VENDOR
+    Pasta de download do bootstrap (inportações e variáveis)
