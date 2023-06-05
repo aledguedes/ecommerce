@@ -1,0 +1,36 @@
+.btn-width {
+    min-width: 64px;
+}
+
+.btn-carousel {
+    @extend .btn-width;
+    background-color: #f4f4f46d;
+    border-radius: 10px;
+    padding: 13px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: solid 1px $neutra01;
+    color: $neutra01;
+
+    &:hover {
+        color: $neutra01;
+        background-color: #b1b0b0b2;
+        transition: .3s;
+    }
+}
+
+.btn-card {
+    background-color: $neutra06;
+    color: $neutra01;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 13px 32px;
+    text-decoration: none;
+
+    &:hover {
+        color: $neutra01;
+        background-color: $neutra05;
+        transition: .3s;
+    }
+}

@@ -1,0 +1,108 @@
+.caroussel-home {
+    .carousel-item {
+        height: 500px;
+        background-image: url("/img/image.png");
+        background-position: center;
+        background-size: cover;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    .carousel-caption {
+        position: relative;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        padding-top: 150px;
+        padding-bottom: 1.25rem;
+        color: $neutra01;
+        text-align: start;
+        
+        h2 {
+            font-size: 60px;
+            font-weight: 700;
+        }
+    }
+    
+    .carousel-indicators [data-bs-target] {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: $primary;
+        margin: 0 10px;
+    }
+}
+
+
+// Novidades
+.novidades {
+    margin: 50px 0;
+}
+
+// BG- Image
+.bg-image {
+    background-image: url('../../../img/bg-image.png');
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.bg-image-mask {
+    background-color: rgba(61, 61, 61, 0.527);
+    padding: 100px 0;
+}
+
+.bg-image-text {
+    width: 50%;
+    color: #fff;
+}
+
+.bg-image-text {
+    h2 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+@media(max-width: 992px) {
+    .carousel-home {
+        .carousel-item {
+            height: 400px;
+        }
+    
+        .carousel-caption {
+            padding-top: 90px;
+
+            h2 {
+                font-size: 48px;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .carousel-home {
+        .carousel-item {
+            height: 350px;
+        }
+    
+        .carousel-caption {
+            text-align: center;
+
+            h2 {
+                font-size: 36px;
+            }
+        }
+    }
+
+    .bg-image-text {
+        width: 100%;
+    }
+} 
