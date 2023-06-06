@@ -22,9 +22,9 @@
 <body>
     <header>
         <div class="container">
-            <div class="row justify-content-center justify-content-md-between align-item-center py-3 gap-md-0 gap-3">
-                <a href="/home.php" class="col-6"><img src="img/logo_dhemes.png" alt="Logo da Dhemes" width="200px"></a>
-                <div class="col-12 col-md-4 col-xl-3">
+            <div class="row justify-content-center justify-content-md-between align-items-center py-3 gap-md-0 gap-3">
+                <a href="/home.php" class="col-6"><img src="img/logo_dhemes.svg" alt="Logo da Dhemes" width="250px"></a>
+                <div class="col-12 col-md-4 col-xl-3 d-flex">
                     <form class="search-area rounded-3 p-3 d-flex flex-nowrap">
                         <i class="bi bi-search me-2"></i>
                         <input type="text" placeholder="Pesquisar produtos...">
