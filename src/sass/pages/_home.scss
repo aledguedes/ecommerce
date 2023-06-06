@@ -1,3 +1,10 @@
+.text-gradient {
+    background-image: linear-gradient(to left, $primary, $primary, $primary, $primary, $primary, $primary, $dark03);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .caroussel-home {
     .carousel-item {
         height: 500px;
